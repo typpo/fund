@@ -1,0 +1,12 @@
+{
+  "name": "fund",
+  "description": "fund",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node fund.js"
+  },
+  "dependencies": {
+    "body-parser": "latest",
+    "express": "latest"
+  }
+}
