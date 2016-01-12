@@ -2630,6 +2630,12 @@
 			padding: 0 2em 0 2em;
 		}
 
+    .carousel .reel p {
+      margin-top: 0.3em;
+      font-size: 0.8em;
+      margin-bottom: -0.5em;
+    }
+
 		.carousel article {
 			display: inline-block;
 			width: 18em;
