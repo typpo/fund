@@ -1741,7 +1741,6 @@
 		.image img {
 			display: block;
 			width: 100%;
-		  height: 13em;
     }
 
 		.image.fit {
@@ -1754,6 +1753,10 @@
 			width: 100%;
 			margin: 0 0 4em 0;
 		}
+
+    .image.featured img {
+      height: 13em;
+    }
 
 		.image.left {
 			float: left;
@@ -2086,7 +2089,7 @@
 
 	.wrapper {
 		background: #fff;
-		margin: 0 0 2em 0;
+		margin: 0;
 		padding: 4em 0 4em 0;
 	}
 
@@ -2098,7 +2101,7 @@
 
 	#header {
 		position: relative;
-		background-image: url("../../images/dark_tint.png"), url("../../images/header.jpg");
+		background-image: url("../../images/dark_tint.pn"), url("../../images/header.jpg");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -2367,12 +2370,55 @@
 /* Main */
 
 	#main {
-		margin-bottom: 0;
+		margin-bottom: 0; 
   }
 
 		#main section:first-of-type {
 			padding-top: 2em;
 		}
+
+/* Reason */
+  #reason {
+    position: relative;
+    background-image: url("../../images/reason.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+    padding: 7.5em 0 2em 0;
+    cursor: default;
+  }
+
+  .layer {
+    background-color: rgba(60,57,73,0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  #reason h1 {
+    color: #fff;
+    font-size: 3em;
+  }
+  
+  #reason p {
+    padding-top: 1.5em;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  
+  #reason .inner {
+    padding-left: 2em;
+    padding-right: 2em;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 46em;
+    z-index: 1;
+    position: relative;
+  }
 
 /* Features */
   #features .tree{
@@ -2759,7 +2805,6 @@
 
 			hr {
 				top: 3em;
-				margin-bottom: 6em;
 			}
 
 		/* Section/Article */
@@ -3106,6 +3151,16 @@
 
       .tree h3 {
         text-align: center;
+      }
+      
+    /* Reason */
+
+      #reason h1 {
+        font-size: 2em;
+      }
+
+      #reason p {
+        padding-top: 0.5em;
       }
 
 		/* Footer */
