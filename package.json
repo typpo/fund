@@ -7,6 +7,6 @@
   },
   "dependencies": {
     "body-parser": "latest",
-    "express": "latest"
+    "express": "4.13.3"
   }
 }
