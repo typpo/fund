@@ -40,5 +40,12 @@
 }
 
 #project .donate {
-  margin-left:90px;
+  margin: auto;
+  width: 51%;
+  margin-top: 3em;
+}
+
+#project .button {
+  padding-left: 2em;
+  padding-right: 2em;
 }
