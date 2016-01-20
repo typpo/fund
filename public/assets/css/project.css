@@ -1,3 +1,11 @@
+#project #content {
+  padding-top:48px;
+}
+
+#project #sidebar {
+  padding-top:48px;
+}
+
 #project h2 {
   font-size: 2em;
 }
