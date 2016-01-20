@@ -1,0 +1,11 @@
+#project h2 {
+  font-size: 2em;
+}
+
+#project .image.featured img {
+  height: auto;
+}
+
+#project .image.subfeatured img {
+  height: 13em;
+}
