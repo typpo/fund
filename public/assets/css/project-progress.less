@@ -9,8 +9,8 @@
 	@transition-length: 1s;
 	@shadow: 6px 6px 10px rgba(0,0,0,0.2);
 	@percentage-color: #97a71d;
-	@percentage-font-size: 22px;
-	@percentage-text-width: 57px;
+	@percentage-font-size: 30px;
+	@percentage-text-width: 70px;
 
 	margin: auto;
 	width:  @circle-size;
@@ -53,14 +53,26 @@
 		background-color: @inset-color;
 		border-radius: 50%;
 		box-shadow: @shadow;
+    .donate-stats-donor {
+			position: absolute;
+			top:      (@inset-size - @percentage-font-size) * 0.5;
+			left:     (@inset-size - @percentage-text-width) * 0.3;
+    }
+
+    .donate-stats-money {
+			position: absolute;
+			top:      (@inset-size - @percentage-font-size) * 0.7;
+			left:     (@inset-size - @percentage-text-width) * 0.5;
+      line-height: 1.3;
+    }
 		.percentage {
 			height:   @percentage-font-size;
 			width:    @percentage-text-width;
 			overflow: hidden;
 
 			position: absolute;
-			top:      (@inset-size - @percentage-font-size) / 2;
-			left:     (@inset-size - @percentage-text-width) / 2;
+			top:      (@inset-size - @percentage-font-size) * 0.35;
+			left:     (@inset-size - @percentage-text-width) * 0.5;
 
 			line-height: 1;
 			.numbers {

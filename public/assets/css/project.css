@@ -45,6 +45,10 @@
   margin-top: 3em;
 }
 
+#project .donate-stats-money h3{
+  display: inline-block;
+}
+
 #project .button {
   padding-left: 2em;
   padding-right: 2em;
