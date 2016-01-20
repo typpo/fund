@@ -38,3 +38,7 @@
 #project hr:after {
   right: -1px;
 }
+
+#project .donate {
+  margin-left:90px;
+}
