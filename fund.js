@@ -15,6 +15,10 @@ app.get('/project', function(req, res) {
   serveFile('project.html', res);
 });
 
+app.get('/aboutus', function(req, res) {
+  serveFile('aboutus.html', res);
+});
+
 function serveFile(path, res) {
   fs.readFile(path, function (err, data){
     res.writeHead(200, {'Content-Type': 'text/html','Content-Length':data.length});
