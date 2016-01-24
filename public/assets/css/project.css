@@ -1,3 +1,27 @@
+#project .fa-circle {
+  color: #ef8376;
+}
+
+#project .highlight-number {
+  font-size:2vw;
+}
+
+#project .number-circle {
+  border-radius: 50%;
+  behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+
+  width: 36px;
+  height: 36px;
+  padding: 8px;
+
+  background: #fff;
+  border: 2px solid #666;
+  color: #666;
+  text-align: center;
+
+  font: 32px Arial, sans-serif;
+}
+
 #project #content {
   padding-top:48px;
 }
@@ -24,6 +48,9 @@
   }
   #project .image.subfeatured img {
     height: auto;
+  }
+  #project .highlight-number {
+    font-size:3.5vw;
   }
 }
 
